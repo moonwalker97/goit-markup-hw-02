@@ -1,0 +1,49 @@
+/* Основний колір тексту - #2E2F42 */
+
+/* Другорядний колір тексту - #434455 */
+
+/* Колір тексту кнопок - #4D5AE5 */
+
+/* Колір тексту кнопок при наведенні - #FFFFFF */
+
+/* Колір тексту футера - #E7E9FC */
+
+/* Колір основного фону - #E7E9FC */
+
+/* Колір другорядного фону - #F4F4FD */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Логотип */
+
+.logo {
+    text-decoration: none;
+}
+
+.logo-web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  color: #2e2f42;
+}
+
+/* Site-nav */
+
