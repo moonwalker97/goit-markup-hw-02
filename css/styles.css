@@ -66,6 +66,10 @@ ul {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-item {
   text-decoration: none;
   font-style: normal;
