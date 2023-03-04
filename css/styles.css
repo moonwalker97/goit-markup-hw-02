@@ -23,11 +23,6 @@ body {
   text-decoration: none;
 }
 
-.address-item {
-  text-decoration: none;
-  font-style: normal;
-}
-
 ul {
   list-style: none;
 }
@@ -72,6 +67,8 @@ ul {
 }
 
 .address-item {
+  text-decoration: none;
+  font-style: normal;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
@@ -91,13 +88,14 @@ ul {
 
 .hero-title {
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -138,7 +136,7 @@ ul {
 
 .example-title {
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -149,7 +147,7 @@ ul {
 
 .team-title {
   font-size: 36px;
-  line-height: calc(40 / 36);
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -175,8 +173,19 @@ ul {
 
 /* Footer */
 
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-logo {
   text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 
 /* Portfolio */
