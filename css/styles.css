@@ -25,6 +25,7 @@ body {
 
 .address-item {
   text-decoration: none;
+  font-style: normal;
 }
 
 ul {
@@ -38,7 +39,7 @@ ul {
   text-transform: uppercase;
 }
 
-.hearer-logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -49,10 +50,9 @@ ul {
 
 .logo-studio {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: calc(24 / 18);
+  line-height: 1.17;
   color: #2e2f42;
 }
 
@@ -68,7 +68,7 @@ ul {
 
 .header-item:hover,
 .header-item:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .address-item {
