@@ -203,9 +203,10 @@ ul {
 /* Filter */
 
 .filter-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -233,53 +234,23 @@ ul {
   border-radius: 4px;
 }
 
-/* Row1 */
+/* Rows */
 
-.row1-title {
+.link {
+  text-decoration: none;
+}
+
+.row-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: calc(24 / 20);
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.row1-text {
+.row-text {
   font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Row2 */
-
-.row2-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: calc(24 / 20);
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.row2-text {
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Row3 */
-
-.row3-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: calc(24 / 20);
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.row3-text {
-  font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
