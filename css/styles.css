@@ -12,9 +12,19 @@
 
 /* Колір другорядного фону - #F4F4FD */
 
-body {
+:root {
+  --body-color: #434455;
+  --footer-background-color: #2E2F42;
+  --button-text-color: #4D5AE5;
+  --button-text-hover-color: #FFFFFF;
+  --background-button-color: #f4f4fd;
+  --background-button-hover-color: #404bbf;
+  --link-color-hover: #404BBF;
+}
+
+.body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--body-color);
 }
 
 /* Header */
@@ -63,7 +73,7 @@ ul {
 
 .header-item:hover,
 .header-item:focus {
-  color: #404bbf;
+  color: var(--link-color-hover);
 }
 
 .address {
@@ -81,7 +91,7 @@ ul {
 
 .address-item:hover,
 .address-item:focus {
-  color: #404bbf;
+  color: var(--link-color-hover);
 }
 
 /* Hero */
@@ -180,7 +190,7 @@ ul {
 /* Footer */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--footer-background-color);
 }
 
 .footer-logo {
@@ -217,8 +227,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--button-text-color);
+  background: var(--background-button-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   cursor: pointer;
@@ -226,15 +236,8 @@ ul {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  color: var(--button-text-hover-color);
+  background: var(--background-button-hover-color);
 }
 
 /* Rows */
