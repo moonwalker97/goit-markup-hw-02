@@ -103,8 +103,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
@@ -148,6 +146,10 @@ ul {
 }
 
 /* Team */
+
+.team {
+  background-color: #F4F4FD;;
+}
 
 .team-title {
   font-size: 36px;
@@ -199,6 +201,13 @@ ul {
   color: #f4f4fd;
 }
 
+.footer-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #E7E9FC;;
+}
+
 /* Portfolio */
 /* Filter */
 
@@ -207,9 +216,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background: #f4f4fd;
@@ -223,9 +229,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #404bbf;
