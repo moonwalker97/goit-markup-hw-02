@@ -15,11 +15,24 @@
 :root {
   --body-color: #434455;
   --footer-background-color: #2E2F42;
+  --footer-text-color: #E7E9FC;
+  --footer-logo-studio-color: #F4F4FD;
   --button-text-color: #4D5AE5;
   --button-text-hover-color: #FFFFFF;
   --background-button-color: #f4f4fd;
   --background-button-hover-color: #404bbf;
   --link-color-hover: #404BBF;
+  --logo-web-color: #4d5ae5;
+  --logo-studio-color: #2e2f42;
+  --header-item-color: #2e2f42;
+  --address-item-color: #434455;
+  --hero-background-color: #2e2f42;
+  --hero-button-color: #ffffff;
+  --hero-button-background-color: #4d5ae5;
+  --hero-button-background-hover-color: #404bbf;
+  --hero-title-color: #ffffff;
+  --title-subtitle-color: #2e2f42;
+  --team-background-color: #F4F4FD;
 }
 
 .body {
@@ -50,7 +63,7 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--logo-web-color);
 }
 
 .logo-studio {
@@ -58,7 +71,7 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #2e2f42;
+  color: var(--logo-studio-color);
 }
 
 /* header-nav */
@@ -68,7 +81,7 @@ ul {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--header-item-color);
 }
 
 .header-item:hover,
@@ -86,7 +99,7 @@ ul {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--address-item-color);
 }
 
 .address-item:hover,
@@ -97,7 +110,7 @@ ul {
 /* Hero */
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--hero-background-color);
 }
 
 .hero-title {
@@ -105,7 +118,7 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
 
 .hero-btn {
@@ -114,17 +127,15 @@ ul {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  color: var(--hero-button-color);
+  background: var(--hero-button-background-color);
   cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--hero-button-color);
+  background: var(--hero-button-background-hover-color);
 }
 
 /* About */
@@ -134,14 +145,14 @@ ul {
   font-size: 20px;
   line-height: calc(24 / 20);
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-subtitle-color);
 }
 
 .about-text {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-color);
 }
 
 /* Example */
@@ -152,13 +163,13 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-subtitle-color);
 }
 
 /* Team */
 
 .team {
-  background-color: #F4F4FD;;
+  background-color: var(--team-background-color);
 }
 
 .team-title {
@@ -167,7 +178,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-subtitle-color);
 }
 
 .team-subtitle {
@@ -176,7 +187,7 @@ ul {
   line-height: calc(24 / 20);
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-subtitle-color);
 }
 
 .team-text {
@@ -184,7 +195,7 @@ ul {
   line-height: calc(24 / 16);
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-color);
 }
 
 /* Footer */
@@ -201,21 +212,22 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #4d5ae5;
+  color: var(--logo-web-color);
 }
+
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #f4f4fd;
+  color: var(--footer-logo-studio-color);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
-  color: #E7E9FC;;
+  color: var(--footer-text-color);
 }
 
 /* Portfolio */
@@ -251,12 +263,12 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-subtitle-color);
 }
 
 .row-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-color);
 }
